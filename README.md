@@ -1,15 +1,37 @@
-# keeper
 
-Welcome to your new keeper project and to the internet computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
 
-To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
+# Keeper Project
 
-To learn more before you start working with keeper, see the following documentation available online:
+## Introduction
+Welcome to the Keeper project, a secure and efficient data storage application built on the Internet Computer using the Motoko programming language. This README will guide you through setting up the project, understanding Motoko, and deploying it on the Internet Computer.
 
-- [Quick Start](https://internetcomputer.org/docs/current/developer-docs/setup/deploy-locally)
-- [SDK Developer Tools](https://internetcomputer.org/docs/current/developer-docs/setup/install)
-- [Motoko Programming Language Guide](https://internetcomputer.org/docs/current/motoko/main/motoko)
-- [Motoko Language Quick Reference](https://internetcomputer.org/docs/current/motoko/main/language-manual)
+## Motoko Programming Language
+Motoko is a programming language designed specifically for building applications on the Internet Computer. It offers a high-level, expressive syntax while ensuring strong security and efficiency properties. Here are some key features of Motoko:
+
+- **Actor-based Model**: Motoko utilizes an actor-based concurrency model, allowing developers to write scalable and resilient distributed systems effortlessly.
+  
+- **Strong Typing**: Motoko features a strong type system that helps catch errors at compile-time, ensuring robustness and reliability of the code.
+  
+- **Efficient Memory Management**: Motoko abstracts away low-level memory management, providing automatic memory allocation and garbage collection, thus making it easier to write safe and efficient code.
+  
+- **Interoperability**: Motoko seamlessly integrates with other Internet Computer components, such as canisters and interfaces, enabling developers to build complex systems with ease.
+
+For more information on Motoko and its features, refer to the [Motoko Documentation](https://sdk.dfinity.org/docs/language-guide/motoko.html).
+
+## Internet Computer
+The Internet Computer is a decentralized computing platform that enables the development and hosting of secure and scalable software on a public network. Here's why the Internet Computer is revolutionary:
+
+- **Decentralization**: Unlike traditional cloud platforms, the Internet Computer is decentralized, meaning there's no single point of control, enhancing security and resilience.
+
+- **Canister Model**: Applications on the Internet Computer are deployed as canisters, which are autonomous units of software that can interact with each other through a secure messaging protocol.
+
+- **Security**: The Internet Computer leverages cryptographic techniques to ensure the integrity and confidentiality of data, providing a secure environment for running applications.
+
+- **Scalability**: With its unique architecture, the Internet Computer can scale transparently to accommodate growing demands without sacrificing performance or reliability.
+
+For more information on the Internet Computer and its capabilities, visit the [Internet Computer Documentation](https://sdk.dfinity.org/docs/index.html).
+
+
 
 If you want to start working on your project right away, you might want to try the following commands:
 
